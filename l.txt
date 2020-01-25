@@ -1,0 +1,228 @@
+2.....
+\documentclass[11pt]{articl}
+\begin{document}
+
+\end{document}
+
+
+3.....
+$$ ||math mode
+$$ $$ ||To bring the equation in middle
+
+
+4.
+SUPERSCRIPT
+$2x^{20}$
+
+$2x^{20+x}$
+
+$2x^{20+x^s}$
+
+SUBSCRIPT
+$x_1$
+$x_{12}$
+
+
+Greek Latters
+$\pi$
+
+$\alpha$
+
+$\beta$
+
+$\gamma$
+
+$\delta$
+
+$\epsilon$
+
+$\theta$
+
+
+Trigonometric Function
+
+$sin(x)$
+
+$cos(x)$
+
+$tan(x)$
+
+$log_5(7)$
+
+Square Root:
+$\sqrt[3]{9}$
+
+$\sqrt10$
+
+
+
+5
+-----------
+Fraction--
+$\frac{3}{2}$
+$displaystyle(\frac{2}{3})$   ||displaystyle function enlarge the fraction vlaue
+
+
+
+List:
+
+\begin{enumerate}
+\item Apple
+\item Guava
+\item Banana
+\item Banana
+\end{enumerate}
+
+\begin{enumerate}
+\item Apple
+     \begin{enumerate}
+        \item Apple
+		\item Guava
+		\item Banana
+		\item Banana
+     \end{enumerate}
+\item Guava
+\item Banana
+\item Banana
+\end{enumerate}
+
+
+Bulletpoint List
+
+
+\begin{itemize}
+\item list-item
+\end{itemize}
+
+
+\begin{itemize}
+\item[one] list-item
+\end{itemize}
+
+
+
+6
+----------
+
+BRACKETS.
+$(x+1)$
+
+$(y+1)$
+
+$\{Z+1\}$
+
+$3\left(\frac{2}{3}\right)$
+
+$3\left(\frac{2}{3}\right.$
+
+
+TABLE-----
+
+
+\begin{tabular}{|c|c|c|}
+\hline
+ NAME & ROLL & CLASS\\ \hline
+ x & y & z\\ \hline
+ a & b &c \\ \hline
+\end{tabular}
+
+
+
+
+EQUATION ARRAY:
+
+\begin{eqnarray}
+ x^2+2xy+y^2=0\\ 
+  x^2+2xy+y^2=0\\
+   x^2+2xy+y^2=0
+\end{eqnarray}
+
+
+
+\begin{eqnarray*}
+ x^2+2xy+y^2=0\\ 
+  x^2+2xy+y^2=0\\
+   x^2+2xy+y^2=0
+\end{eqnarray}
+
+
+
+
+7
+---
+
+\texttt{Tele text}
+
+\textbf{bold Text}
+
+\textit{Text Italic}
+
+\textsc{text small caps}
+
+
+
+ALIGNMENT
+------------------
+\begin{large}
+This is a simple text
+\end{large}
+
+\begin{huge}
+This is a simple text
+\end{huge}
+
+
+\begin{Huge}
+This is a very huge text
+\end{Huge}
+
+
+\begin{small}
+This is small text
+\end{small}
+
+\begin{tiny}
+This is tiny text
+\end{tiny}
+
+
+\begin{center}
+This is centered Text
+\end{center}
+
+
+\begin{flushleft}
+This is left aligned text 
+\end{flushleft}
+
+
+
+\begin{flushright}
+This is right aligned text 
+\end{flushright}
+
+
+-----------TITLE----
+\title{Title name}
+\author{Mustafiz}
+\date{\today}
+\maketitle
+
+
+-------------Section----------------
+
+\tableofcontents
+
+
+\section{Fruit}
+\subsection{Banana}
+\subsection{Apple}
+\subsection{Grape}
+\subsection{Guave}
+\section{Flower}
+\subsection{Rose}
+\subsection{Water Lily}
+
+-----------------------------------------------------------------------------------------Another Tutorials----------------------------------------------------------------------------------
+1.
+

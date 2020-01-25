@@ -1,0 +1,215 @@
+2}
+Every command start with a back slash
+
+3.
+\documentclass[13pt]{article}
+
+\begin{document}
+Hello Boys.\\
+This is the preferred $$x^2+2xy=y^2$$ equation
+\end{document}
+
+
+4.
+\documentclass[13pt]{article}
+
+\begin{document}
+Common math notation
+
+$2x^{20+a^{34}}$
+
+
+Subscript
+
+${X_1}_2$
+
+
+Greek Letters:
+
+$\pi$
+$\alpha$
+$\beta$
+$\gamma$
+$\epsilon$
+$\delta$
+
+
+trigometric functon:
+
+
+$\sin(x)$
+$\cos(x)$
+
+
+
+Log Function:
+
+
+$log(5)$
+$log_7(5)$
+
+
+
+Square Root:
+
+$\sqrt(5)$
+$\sqrt{100}$
+$\sqrt[4]{56}$
+$\sqrt{2+y+\sqrt{x+2+\sqrt{9}}}$
+
+
+\end{document}
+
+5.
+----
+\documentclass[11pt]{article}
+
+\begin{document}
+
+Fraction:
+
+we have $\frac{x^2}{x^2+1}$ time left
+
+we have $\displaystyle{\frac{x^2}{x^2+1}}$ time left
+
+
+List:
+
+\begin{itemize}
+\item[yy] hello
+\end{itemize}
+
+\begin{itemize}
+\item hello
+\item hello
+\item hello
+\item[2] hello
+\end{itemize}
+
+
+\end{document}
+
+6
+---
+\documentclass[11pt]{article}
+
+\begin{document}
+
+$(x+1)$
+
+$[x+1]$
+
+${x+3}$
+
+
+$3(\frac{2}{3})$
+
+$3\left(\frac{2}{3}\right)$
+$3\left(\frac{2}{3}\right.$
+
+
+Table:\\
+
+
+\begin{tabular}{|l|c|r|}
+
+
+\hline
+
+column1 &column2 &column3\\ \hline
+x &y &z\\ \hline
+x &y &z \\ \hline
+
+\end{tabular}
+
+
+Equation array:
+
+\begin{eqnarray}
+x^2+1=0\\
+x^3+3xy+3=0
+\end{eqnarray}
+
+\begin{eqnarray*}
+x^2+1=0\\
+x^3+3xy+3=0
+\end{eqnarray}
+
+
+
+\end{document}
+
+-----------------------------------------------------
+\documentclass[11pt]{article}
+\begin{document}
+
+\tableofcontents
+
+
+
+
+\title{My fisrt documeny title}
+\author{Mustafizur Rahman}
+\date{\today}
+\maketitle
+
+
+Formatting Text:
+\textit{Bangladesh is my country}\
+
+\textbf{I love my country}
+
+\texttt{typewritter}
+
+\textsc{smaal caps}
+
+This is a \begin{large}normal\end{large} text
+
+This is a \begin{huge}normal\end{huge} text
+
+This is a \begin{Huge}normal\end{Huge} text
+
+
+This is a \begin{small}normal\end{small} text
+
+This is a \begin{tiny}normal\end{tiny} text
+
+\begin{center}Centered Text\end{center}
+
+\begin{flushleft}
+Left Align
+\end{flushleft}
+
+
+\begin{flushright}
+Right Align
+\end{flushright}
+
+
+\section{Fruit}
+\subsection{This is a subsection}
+This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.
+This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.
+This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.
+\subsection{This is another subsection}
+
+This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.
+This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.
+This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.
+This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.
+This tutorial is meant for students of computer science who aspire to learn the basics of cryptography. It will be useful for networking professionals as well who would like to incorporate various cryptographic algorithms to ensure secure data communication over their networks.
+\subsection{This is another subsection}
+\subsection{This is another subsection}
+\subsection{This is another subsection}
+\section{Flower}
+
+\subsection{This is a subsection of flower}
+\subsection{This is another subsection of flower}
+
+
+
+
+
+
+\end{document}
+

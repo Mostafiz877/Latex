@@ -1,0 +1,34 @@
+\tableofcontents
+\section{}
+\subsection{}
+\subsubsection{}
+\cleardoublepage    ||page break
+
+\section*{section}    ||* meanings section number will not appear
+
+
+\thispagestyle{empty}   ||to remove the number of a page
+\setcounter{page}{1}    ||To start page no from 1
+
+\pagenumbering{roman}
+
+\usepackage[margin=1in,left=1.5in,includefoot]{geometry}
+\usepackage{graphicx}  %to import images
+\usepackage{float}  %to Control of float position
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=4in]{f.jpg}
+\caption{A picture of flowchart}
+\label{fig:flowchart}
+\end{figure}
+
+
+
+[2.5in]   || 2.5 space
+
+
+\usepackage[hidelinks]{hyperref}  ||for linking
+

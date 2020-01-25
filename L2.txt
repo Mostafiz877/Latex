@@ -1,0 +1,171 @@
+2.
+
+**** Title *****
+
+ \title{My first Report}
+\author{Mustafizur Rahman}
+\date{\today}
+\maketitle
+
+-------------------------------
+
+  \begin{center}
+  \line(1,0){300}
+  
+  \huge{\bfseries My first Report}
+  
+  \line(1,0){200}
+  \end{center}
+
+  ---------------
+   Some text
+   \vskip 0.2in
+   Some text
+----------------
+
+
+3.
+
+****Page Margin***
+\usepackage[margin=1in,includefoot]{geometry}
+\\usepackage[margin=1in,left=1.5in,includefoot]{geometry}
+
+-----------------
+\newpage
+or
+\cleardoublepage
+-----------------
+
+To remove page number: \thispagestye{empty}
+To count from 1: \setcounter{page}{1}
+
+
+5.Figure----------
+
+\usepackage{graphicx}
+\usepackage{float}
+
+\begin{figure}[H]
+\centering
+\includegraphics[height=2.5in]{f.jpg}
+\caption{\textbf{Encryption Procedure}}
+\label{fig:enc}
+\end{figure}
+
+
+
+------------------------Reference---------------------------
+label{sec:intro}
+label{fig:encryption}
+
+
+
+The introduction can be found at \pageref{sec:intro}\\
+
+The figure can be found at \pageref{fig:enc}\\
+\ref{fig:enc}
+
+-------------------------
+\listoffigures
+
+
+
+6.
+********Hyperlinking*******
+
+\usepackage[hidelinks]{hyperref}
+
+------------------Table-------------------------
+
+\begin{table}[H]
+    \centering
+    \caption{Table illustrates the encryption method}
+    \label{ttttt:tab1}
+    
+    \begin{tabular}{|c|c|c|}
+    
+    \hline
+    \textbf{Name} & \textbf{Roll} & \textbf{Section}\\ \hline
+    Mustafizur Rahman & 1603009 & 1603009
+    
+    \end{tabular}
+\end{table}
+
+
+-----------------------Custom Column--------------
+\begin{tabular}{|p{1.5in}|p{1.2in}|p{1.2in}|}
+
+
+8.    ***Package*******
+     \usepackage[numbers,sort]{natbib}
+-------------------------------------------------------------
+
+\bibliographystyle{IEEtran}
+\bibliography{location}
+
+------------------------------------------------------------- 
+
+\cite{ref:one}
+
+
+
+10. Lists and Nested List
+
+\begin{itemize}
+ \item Bangladesh
+    \begin{itemize}
+      \item Dhaka 
+      \item Barisal
+      \begin{itemize}
+         \item Mehendigonj
+         \item Gournodi
+      \end{itemize}
+      \item Sylhet
+    \end{itemize}
+ \item India
+ \item Pakistan
+ \item America
+\end{itemize}
+
+
+
+\begin{enumerate}
+\item [k] hello
+\end{enumerate}
+
+13.
+
+Famous Einstein Equation $E=MC^2$
+Ideal Gas Equation: $$PV=nRT$$
+
+$$\left(\frac{2}{3}\right)$$
+$$x^{3^{2^7}}$$
+$$\sqrt{10}$$
+$$4 \neq 100$$
+$$\pi \times \sqrt{4}<15$$
+
+\begin{equation}
+(a+b)^2=a^2+2ab+b^2
+\end{equation}
+
+
+\begin{equation}
+(a-b)^2=a^2+2ab+b^2
+\end{equation}
+
+
+14.
+Mathematical Equation:
+
+
+
+-----------------------------------------Increase Fontsize--------------------------------
+
+\fontsize{11pt}{12}\selectfont
+
+
+
+
+
+
+
